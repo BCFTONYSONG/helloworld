@@ -1,0 +1,42 @@
+Message Header:<bcfhdr:BcfMessageHeader xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bcfhdr="http://www.bcferries.com/ns/Infrastructure/BcfMessageHeader/V1">
+	<bcfhdr:MessageInstanceId>fe26a94a-78d6-4226-a60b-58a6591b0c5c</bcfhdr:MessageInstanceId>
+	<bcfhdr:CreationDateTime>2019-06-20T14:04:56.367-07:00</bcfhdr:CreationDateTime>
+	<bcfhdr:MessageIdentification>
+		<bcfhdr:MessageIdKey>MYBCF:CustomerNumber</bcfhdr:MessageIdKey>
+		<bcfhdr:MessageIdValue>1047359</bcfhdr:MessageIdValue>
+	</bcfhdr:MessageIdentification>
+	<bcfhdr:MessageIdentification>
+		<bcfhdr:MessageIdKey>BCF:CoherenceKey</bcfhdr:MessageIdKey>
+		<bcfhdr:MessageIdValue>N/A</bcfhdr:MessageIdValue>
+	</bcfhdr:MessageIdentification>
+	<bcfhdr:MessageIdentification>
+		<bcfhdr:MessageIdKey>PAYMENT:PaymentID</bcfhdr:MessageIdKey>
+		<bcfhdr:MessageIdValue>CardID: 4500030261695203</bcfhdr:MessageIdValue>
+	</bcfhdr:MessageIdentification>
+	<bcfhdr:MessageTracking>
+		<bcfhdr:ServiceName>ProxyService$PaymentGateway$proxy$V1$PaymentGatewayLPS</bcfhdr:ServiceName>
+		<bcfhdr:FirstEntryDateTime>2019-06-20T14:04:56.39-07:00</bcfhdr:FirstEntryDateTime>
+		<bcfhdr:LastEntryDateTime>2019-06-20T14:04:56.39-07:00</bcfhdr:LastEntryDateTime>
+		<bcfhdr:EntryCount>1</bcfhdr:EntryCount>
+	</bcfhdr:MessageTracking>
+	<bcfhdr:MessageTracking>
+		<bcfhdr:ServiceName>ProxyService$CoherenceGateway$proxy$V1$GetBookingCoherenceLPS</bcfhdr:ServiceName>
+		<bcfhdr:FirstEntryDateTime>2019-06-20T14:04:56.372-07:00</bcfhdr:FirstEntryDateTime>
+		<bcfhdr:LastEntryDateTime>2019-06-20T14:04:56.372-07:00</bcfhdr:LastEntryDateTime>
+		<bcfhdr:EntryCount>1</bcfhdr:EntryCount>
+	</bcfhdr:MessageTracking>
+	<bcfhdr:MessageTracking>
+		<bcfhdr:ServiceName>ProxyService$ConfirmBookings$proxy$V1$ConfirmBookingsRS</bcfhdr:ServiceName>
+		<bcfhdr:FirstEntryDateTime>2019-06-20T14:04:56.367-07:00</bcfhdr:FirstEntryDateTime>
+		<bcfhdr:LastEntryDateTime>2019-06-20T14:04:56.367-07:00</bcfhdr:LastEntryDateTime>
+		<bcfhdr:EntryCount>1</bcfhdr:EntryCount>
+	</bcfhdr:MessageTracking>
+</bcfhdr:BcfMessageHeader>
+MessageInstanceId=9fcd6c0a-3482-41e2-bea9-27288ee2b210	 21
+MessageInstanceId=9fcd6c0a-3482-41e2-bea9-27288ee2b210;PAYMENT:PaymentID=TempTokenID: 51912301668..
+
+
+MessageInstanceId=21676f3b-9291-4a50-a1e5-bef5e3b58abe	21
+MessageInstanceId=a0459adf-29b5-490a-b407-d5800745a724	10
+
+fe26a94a-78d6-4226-a60b-58a6591b0c5c	
